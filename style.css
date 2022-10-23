@@ -1,0 +1,197 @@
+body{
+	margin: 0 auto;
+	width: 960px;
+	background-color: #DDD;
+	padding: 10px;
+	background: url(fundo.svg) repeat-x;
+}
+
+.fix{
+	clear: both;
+}
+
+#cab img{
+	float: left;
+}
+
+#menu{
+	float:left;
+	margin-top:93px;
+	width: 453px;
+}
+
+#menu a:hover {
+	color:#000;
+}
+
+#menu ul {
+	list-style: none;
+	background: linear-gradient(to bottom, #85714d, #85714d);
+	padding: 0px;
+	margin: 0px;
+}
+
+#menu li {
+	height: 57px;
+	display: table-cell;
+	text-align: center;
+	vertical-align: middle;
+	width:150px;
+	border-right: 1px solid #85714d;
+
+}
+
+#menu ul li a{
+	text-decoration: none;
+	font-size:20px;
+	color: #FFF;
+}
+
+#slider{
+	width:960px;
+	height:384px;
+	margin-top:15px;
+	margin-bottom:10px;
+}
+
+#slider img{
+	width:960px;
+	height:384px;
+}
+
+#social{
+	float:right;
+	margin-top:40px;
+}
+
+#social img{
+	width: 32px;
+	height: 32px;
+}
+
+#lateral{
+	float:right;
+	background: #DDD;
+	width:190px;
+	border-radius:10px;
+	padding: 5px;
+}
+
+#lateral h1{
+	font-size:15pt;
+	text-align: center;
+	border-bottom: 1px solid #000;
+	margin-top:-5px;
+}
+
+#lateral h2{
+	font-size:15pt;
+}
+
+#lateral p{
+	text-align: justify;
+}
+
+#main{
+	background: #EEE;
+	width:730px;
+	border-radius:10px;
+	padding: 5px;
+}
+
+#main h1{
+	font-size:20pt;
+	border-bottom: 1px solid #000;
+}
+
+#main h2{
+	font-size:15pt;
+}
+
+#main p{
+	text-align: justify;
+}
+
+#b1{
+    position: relative;
+    left: 0px;
+    top: 0px;
+}
+
+#b2{
+    position: relative;
+    left:0px;
+    top: -388px;
+}
+
+#b3{
+    position: relative;
+    left:0px;
+    top: -776px;
+}
+
+#contato label{
+	font-size:15pt;
+	font-weight:bold;
+	font-style: italic;
+	font-family: Arial;
+	color:#777;
+}
+
+#contato input{
+	font-size:15pt;
+	color:#000;
+}
+
+.botao{
+	width:150px;
+	height:40px;
+	border-radius:20px;
+	background-color:#85714d;
+	border:0px;
+	cursor:pointer;
+}
+
+details summary::-webkit-details-marker {
+	display: none;
+}
+
+details{
+	margin-top:30px;
+	cursor:pointer;
+}
+
+summary{
+	height: 40px;
+	border-radius:10px;
+	padding: 15px 0px 0px 10px;
+	font: 15pt Arial;
+	font-weight:bold;
+	background: linear-gradient(to bottom, #EEE, #999);
+}
+
+details p{
+	font-size: 20px;
+}
+
+summary:before{
+	margin-right:5px;
+	content:"+";
+}
+
+details[open] summary:before {
+	content: "-";
+}
+
+footer{
+	color:#888;
+	border: 1px solid black;
+	margin-top: 15px;
+}
+
+footer p{
+	display:inline-block;
+	width:316px;
+	text-align:center;
+}
+
